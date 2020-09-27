@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <title>Progres Desweb</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/popup.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <script src="assets/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+
+    .content1{
+      background: #e67e22;
+      border: 1px solid #000;
+      height:400px;
+      padding:5px;
+      overflow: hidden;
+    }
+
+    .content2{
+      background: #8e44ad;
+      border: 1px solid #000;
+    }
+    .content3{
+      background: #181b1c;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #5dabec;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body style="background-color: #5dabec">
+
+<nav class="navbar my-navbar navbar-default " style="background-color: #5dabec">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="images\karirpad-logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" style="color: #1a237e">Home</a></li>
+        <li><a href="feature.html" style="color: #1a237e">Feature</a></li>
+        <li><a href="client.html" style="color: #1a237e">Client</a></li>
+        <li class="active"><a href="contact.html" style="color: #1a237e">Contact</a></li>
+        <li><a href="#" style="color: #1a237e">Login To ATS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="myjumbotron" style="background-image: url(images/banner-contactus.png); background-repeat: no-repeat; background-position: left; background-size: cover; height: 400px;margin-top: -20px;">
+  <div class="container">
+    <div class="row" style="
+    margin-top: 150px; margin-right: -300px; float: right; text-align: center;">
+      <div class="col-sm-12 text-center" style="font-size: 20px; font-family: times-new-roman; color: white;">
+         Contact Us
+      </div>
+      <div class="col-sm-12 text-center" style="font-size: 18px; font-family: times-new-roman; color: white;">
+         PT. KARIR PAD INTERNASIONAL
+      </div>
+      <div class="col-sm-12 text-center" style="font-size: 14px; font-family: times-new-roman; color: white;">
+         APL Tower, 16th Floor, Unit 5, Jl. Letjen S. Parman Kav. 28, Jakarta 11470, Indonesia<br>
+         Phone : +6221 2933 9500
+         Email : cs@karirpad.com
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center" style="
+    width: 100%;
+">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs12 content1" style="background-color: #5dabec">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6691198931235!2d106.78787661431312!3d-6.175032895529424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69582f97c41%3A0xe1263c4639feff5b!2sPT.+Karirpad+Internasional!5e0!3m2!1sen!2sid!4v1503557064575" height="100%" width="100%" allowfullscreen frameborder="0"></iframe>
+    </div>      
+  </div>
+</div>
+
+<!-- <div class="container text-center" style="
+    width: 100%;
+    ">
+  <div class="row">
+    <div class="col-sm-6 content3"> 
+    <img src="client.png" height="100%" width="100%">                                     
+    </div>
+    <div class="col-sm-6 content2 text-center" style="background-color: #5dabec">
+      <video height="100%" width="100%" controls="autoplay">
+        <source src="Smartfren Testimony about Applicant Tracking System (ATS).mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h3></h3>
+    </div>
+  </div>
+</div> -->
+
+<!-- Pop Up Start -->
+        <div id="popup" class="overlay">
+          <div class="popup">
+            <h2 style="
+    font-size: 20px;
+">Request a Demo</h2>
+            <a class="close" href="#">✖</a>
+            <form action="" method="">
+              <div class="content">
+                 <div>
+                  <p class="popup-label">Company Name</p>
+                  <input class="popup-form" type="text" name="company_name">
+                </div>
+                <div>
+                  <p class="popup-label">Number of Employee</p>
+                  <input class="popup-form" type="text" name="numb_employee">
+                </div>
+                <div>
+                  <p class="popup-label">Company Name</p>
+                  <input class="popup-form" type="text" name="company_name">
+                </div>
+                <div>
+                  <p class="popup-label">Name</p>
+                  <input class="popup-form" type="text" name="your_name">
+                </div>
+                <div>
+                  <p class="popup-label">Phone Number</p>
+                  <input class="popup-form" type="text" name="phone_numb">
+                </div>
+                <div>
+                  <p class="popup-label">Email</p>
+                  <input class="popup-form" type="text" name="company_email">
+                </div> 
+                <div>
+                  <button class="btn-submit-popup" style="margin-top: 10px;width: 98%;background: #34495e;color: #fff;" type="submit" name="submit">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>      
+      <!-- Pop Up End -->
+<br><br>
+
+<footer class="container-fluid text-center" style="
+    margin-top: -60px;
+">
+  <p>Footer</p>  
+</footer>
+
+
+
+</body></html>
